@@ -22,21 +22,21 @@ JSON example files are found in the FHIR Structures folder and this README calls
 # Property Call Outs
 The following properties may be found in multiple structures and have extra clarification on how they are formatted because conveying their full use in the examples is not possible.
 
-## `telecom[].system`
+### `telecom[].system`
 **Found in**: Patient, Related Person, Practitioner, Location
 
 **Allowed values**: [ phone | fax | email | pager | url | sms | other ]
 
 A `telecom` object is a specific implementation of the [ContactPoint](https://www.hl7.org/fhir/datatypes.html#ContactPoint) resource.
 
-## `name.use` or `name[].use`
+### `name.use` or `name[].use`
 **Found in**: Patient, Related Person, Practitioner
 
 **Allowed Values**: [ usual | official | temp | nickname | anonymous | old | maiden ]
 
 A `name` object is a specific implementation of the [HumanName](https://www.hl7.org/fhir/datatypes.html#HumanName) resource.
 
-## `status`
+### `status`
 **Found in**: Appointment
 
 **Allowed Values**: [ proposed | pending | booked | arrived | fulfilled | cancelled | noshow | entered-in-error | checked-in | waitlist ]
