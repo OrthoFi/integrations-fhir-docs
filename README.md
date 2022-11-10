@@ -1,4 +1,4 @@
-# [Resource List](https://www.hl7.org/fhir/resourcelist.html)
+# [FHIR Resource List](https://www.hl7.org/fhir/resourcelist.html)
 
 The FHIR Specification is rather large but OrthoFi only requires several of the structures to be able to map data. This repository provides example data and a list of properties that require special consideration to limit your need to refer to the FHIR spec linked in the header above.
 
