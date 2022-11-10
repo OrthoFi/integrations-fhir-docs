@@ -1,0 +1,54 @@
+{
+  "resourceType": "Patient",
+  "id": "f2fe2458-831d-4f9b-9fd1-9fa02eee331a",
+  "active": true,
+  "meta": {
+    "lastUpdated": "2022-10-11T08:18:32.3580000+00:00"
+  },
+  "extension": [
+    {
+      "url": "PrimaryLocationId",
+      "valueReference": {
+        "reference": "Location/61f2a187-ae9c-40e2-8b5e-c2a6d368dc8c"
+      }
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "Faith Howard",
+      "family": "Howard",
+      "given": [
+        "Faith"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "faith.howard@gmail.com"
+    },
+    {
+      "system": "phone",
+      "value": "(545) 372-3710"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1982-21-09",
+  "address": [
+    {
+      "line": [
+        "5186 Java Street"
+      ],
+      "city": "Nogal",
+      "state": "Nevada",
+      "postalCode": 24011,
+      "country": "USA"
+    }
+  ],
+  "generalPractitioner": [
+    {
+      "reference": "Practitioner/9a681656-fb7d-4649-9734-dbbc02bec32f"
+    }
+  ]
+}

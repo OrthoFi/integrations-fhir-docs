@@ -1,0 +1,60 @@
+{
+  "resourceType": "RelatedPerson",
+  "id": "dd6b891a-5033-4b28-b374-1c6b7635942e",
+  "meta": {
+    "lastUpdated": "2022-10-11T08:18:32.3580000+00:00"
+  },
+  "extension": [
+    {
+      "url": "ResponsiblePartyId",
+      "valueString": "372b7686-19d0-40f2-87d9-e0453fb348a9"
+    }
+  ],
+  "patient": {
+    "reference": "Patient/f2fe2458-831d-4f9b-9fd1-9fa02eee331a"
+  },
+  "relationship": [
+    {
+      "coding": [
+        {
+          "system": "https://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "code": "ONESELF",
+          "display": "self"
+        }
+      ]
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "Keri Cox",
+      "family": "Cox",
+      "given": [
+        "Keri"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "keri.cox@gmail.com"
+    },
+    {
+      "system": "phone",
+      "value": "(131) 226-5910"
+    }
+  ],
+  "birthDate": "1994-18-10",
+  "address": [
+    {
+      "line": [
+        "3371 Aitken Place",
+        "Suite 44"
+      ],
+      "city": "Bethany",
+      "state": "Vermont",
+      "postalCode": 52905,
+      "country": "USA"
+    }
+  ]
+}

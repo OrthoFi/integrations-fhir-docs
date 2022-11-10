@@ -1,0 +1,32 @@
+{
+  "resourceType": "Location",
+  "id": "61f2a187-ae9c-40e2-8b5e-c2a6d368dc8c",
+  "meta": {
+    "lastUpdated": "2022-10-11T08:18:32.3580000+00:00"
+  },
+  "status": "active",
+  "name": "Bethany Office",
+  "alias": [
+    "Bethany Office"
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(613) 805-8237"
+    },
+    {
+      "system": "email",
+      "value": "bethany-office@architax-ortho.com"
+    }
+  ],
+  "address": {
+    "line": [
+      "1729 Vine Street",
+      "Suite 50"
+    ],
+    "city": "Bethany",
+    "state": "New Jersey",
+    "postalCode": 61057,
+    "country": "USA"
+  }
+}

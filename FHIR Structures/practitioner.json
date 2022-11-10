@@ -1,0 +1,39 @@
+{
+  "resourceType": "Practitioner",
+  "id": "9a681656-fb7d-4649-9734-dbbc02bec32f",
+  "meta": {
+    "lastUpdated": "2022-11-09T16:21:20.0947408+00:00"
+  },
+  "extension": [
+    {
+      "url": "{baseUrl}/fhir/StructureDefinition/practitioner-role",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "id": "1",
+            "system": "{baseUrl}/fhir/CodeSystem/practitioner-role",
+            "code": "doctor",
+            "display": "Doctor"
+          }
+        ]
+      }
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "usual",
+      "text": "Jeri Graham",
+      "family": "Graham",
+      "given": [
+        "Jeri"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "jeri.graham@architax-ortho.com"
+    }
+  ]
+}

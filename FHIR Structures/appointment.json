@@ -1,0 +1,37 @@
+{
+  "resourceType": "Appointment",
+  "id": "ed8be774-118d-4b20-8bbf-2764013d94c5",
+  "status": "booked",
+  "appointmentType": {
+    "coding": [
+      {
+        "id": "35",
+        "system": "{baseUrl}/fhir/CodeSystem/appointment-type",
+        "code": "A1",
+        "display": "Adjustment 10"
+      }
+    ]
+  },
+  "start": "2022-09-09T09:45:39.950Z",
+  "end": "2022-09-09T10:15:39.950Z",
+  "participant": [
+    {
+      "actor": {
+        "reference": "Patient/f2fe2458-831d-4f9b-9fd1-9fa02eee331a",
+        "display": "Faith Howard"
+      }
+    },
+    {
+      "actor": {
+        "reference": "Practitioner/9a681656-fb7d-4649-9734-dbbc02bec32f",
+        "display": "Jeri Graham"
+      }
+    },
+    {
+      "actor": {
+        "reference": "Location/61f2a187-ae9c-40e2-8b5e-c2a6d368dc8c",
+        "display": "Bethany Office"
+      }
+    }
+  ]
+}
